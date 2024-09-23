@@ -127,7 +127,14 @@
             <p class="hint" id="hint10">Подсказка</p>
             <p class="hintPlaceholder" id="hint10_placeholder"></p>
             <!-- Начало вашего кода для задания №10 -->
-
+            <details></details>
+                <summary>Нажми на меня</summary>
+                <ul>
+                    <li>Спасибо</li>
+                    <li>Что</li>
+                    <li>Нажал</li>
+                </ul>
+            </details>
             <!-- Конец вашего кода для задания №10 -->
         </div>
         <hr>
@@ -137,7 +144,33 @@
             <p class="hint" id="hint11">Подсказка</p>
             <p class="hintPlaceholder" id="hint11_placeholder"></p>
             <!-- Начало вашего кода для задания №11 -->
-
+            <table border="1" cellpadding="5" cellspacing="0" width="35%">
+                <caption>Что надо купить</caption>
+                <thead>
+                    <tr>
+                        <th align="center"></th>
+                        <th align="center">ЗА</th>
+                        <th align="center">ПРОТИВ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">Купить курочку</td>
+                        <td align="center">+</td>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Купить томаты</td>
+                        <td align="center">+</td>
+                        <td align="center"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">Купить чипсы</td>
+                        <td align="center"></td>
+                        <td align="center">-</td>
+                    </tr>
+                </tbody>
+            </table>
             <!-- Конец вашего кода для задания №11 -->
         </div>
         <hr>
@@ -158,7 +191,39 @@
             <p class="hint" id="hint12">Подсказка</p>
             <p class="hintPlaceholder" id="hint12_placeholder"></p>
             <!-- Начало вашего кода для задания №12 -->
-
+            <h3>Форма</h3>
+            <form action="">
+                <p>
+                    <input type="text" name="name" id="name" placeholder="Введите имя">
+                </p>
+                <p>
+                    <input type="email" name="email" id="email" placeholder="Введите email"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                </p>
+                <p>
+                    <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+                </p>
+                <p>
+                    <input type="date" name="date" id="date">
+                </p>
+                <p>
+                    <input type="checkbox" id="agree" name="agree" value="yes" required> Согласен с условиями
+                </p>
+                <p>
+                    <input type="radio" id="male" name="gender" value="male" checked> Мужчина
+                    <input type="radio" id="female" name="gender" value="female"> Женщина
+                </p>
+                <select id="city" name="city" required>
+                    <option value="">Выберите город</option>
+                    <option value="Tomsk">Томск</option>
+                    <option value="Novosibirsk">Новосибирск</option>
+                    <option value="Saint-Petersburg">Санкт-Петербург</option>
+                </select>
+                <p>
+                    <a href="https://dhtsu.tilda.ws/">Ссылка на сайт программы</a>
+                </p>
+                <input type="submit" name="submit" id="submit-btn" value="Отправить">
+            </form>
             <!-- Конец вашего кода для задания №12 -->
         </div>
         <hr>
