@@ -127,7 +127,12 @@
             <p class="hint" id="hint10">Подсказка</p>
             <p class="hintPlaceholder" id="hint10_placeholder"></p>
             <!-- Начало вашего кода для задания №10 -->
-
+            <details>
+                <summary>Нажмите, чтобы развернуть список</summary>
+                <p>Первый пункт списка</p>
+                <p>Второй пункт списка</p>
+                <p>Третий пункт списка</p>
+            </details>
             <!-- Конец вашего кода для задания №10 -->
         </div>
         <hr>
@@ -137,7 +142,23 @@
             <p class="hint" id="hint11">Подсказка</p>
             <p class="hintPlaceholder" id="hint11_placeholder"></p>
             <!-- Начало вашего кода для задания №11 -->
-
+            <table border="1">
+                <tr>
+                    <th>Столбец 1</th>
+                    <th>Столбец 2</th>
+                    <th>Столбец 3</th>
+                </tr>
+                <tr>
+                    <td>Данные 1</td>
+                    <td>Данные 2</td>
+                    <td>Данные 3</td>
+                </tr>
+                <tr>
+                    <td>Данные 4</td>
+                    <td>Данные 5</td>
+                    <td>Данные 6</td>
+                </tr>
+            </table>
             <!-- Конец вашего кода для задания №11 -->
         </div>
         <hr>
@@ -158,7 +179,35 @@
             <p class="hint" id="hint12">Подсказка</p>
             <p class="hintPlaceholder" id="hint12_placeholder"></p>
             <!-- Начало вашего кода для задания №12 -->
-
+            <form action="#" method="post">
+                <!-- Поля ввода -->
+                <input type="text" name="name" placeholder="Введите имя" required><br>
+                <input type="email" name="email" placeholder="Введите email" required><br>
+                <input type="password" name="password" placeholder="Введите пароль" required><br>
+            
+                <!-- Чекбокс -->
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Подписаться на рассылку</label><br>
+            
+                <!-- Радиокнопки -->
+                <input type="radio" id="option1" name="gender" value="male">
+                <label for="option1">Мужчина</label><br>
+                <input type="radio" id="option2" name="gender" value="female">
+                <label for="option2">Женщина</label><br>
+            
+                <!-- Селектор -->
+                <select name="country" required>
+                    <option value="">Выберите страну</option>
+                    <option value="ru">Россия</option>
+                    <option value="us">США</option>
+                    <option value="fr">Франция</option>
+                </select><br>
+            
+                <!-- Ссылка -->
+                <a href="https://www.example.com" target="_blank">Перейти на внешний ресурс</a><br>
+            
+                <!-- Кнопка отправки -->
+                <button type="submit">Отправить</button>
             <!-- Конец вашего кода для задания №12 -->
         </div>
         <hr>
